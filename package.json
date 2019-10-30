@@ -5,16 +5,21 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "ts-loader": "^6.2.1",
     "tslint": "^6.0.0-beta0",
     "tslint-config-airbnb": "^5.11.2",
     "typedoc": "^0.15.0",
-    "typescript": "^3.6.4"
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc c -p .",
     "tslint": "tslint -p .",
-    "typedoc": "typedoc -p ."
+    "typedoc": "typedoc -p .",
+    "webpack": "webpack"
   },
   "author": "",
   "license": "ISC"
